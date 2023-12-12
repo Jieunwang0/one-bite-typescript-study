@@ -60,18 +60,18 @@ book = programmingBook;
 // programmingBook = book;
 
 // 초과 프로퍼티검사
-type Book = {
+type Book1 = {
     name: string;
     price: number;
 };
 
-let book2: Book = {
+let book2: Book1 = {
     name: "dynosour book",
     price: 52000,
     // skill: "algorism",
 };
 
-let book3: Book = programmingBook;
+let book3: Book1 = programmingBook;
 
 function func(book: Book) {}
     func({ name: "dynosour book", 
