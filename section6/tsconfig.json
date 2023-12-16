@@ -5,7 +5,9 @@
 "strict": true,
 "moduleDetection": "force",
 "allowJs": true,
+// "noImplicitAny": false, 암시적으로 any 허용하는걸 막을 것이냐: 아니 라고 하는 것
 },
 "ts-node": {"esm": true,},
 "include": ["src"],
+
 }
