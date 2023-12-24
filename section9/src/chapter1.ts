@@ -32,7 +32,7 @@ let varB: StringNumberSwitch<string>;
 //         return undefined as any;
 //     }
 // }
-function removeSpaces<T>(text: T): T extends string ? string : undefined;;
+function removeSpaces<T>(text: T): T extends string ? string : undefined;
 
 function removeSpaces(text: any) {
     if (typeof text === "string") {
