@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 interface Props {
-    onClickEvent: (text: string) => void;
+    onClickAdd: (text: string) => void;
 }
 
 export default function Editor(props: Props) {
@@ -11,7 +11,7 @@ export default function Editor(props: Props) {
         setText(e.target.value);
     };
     const onClickEvent = () => {
-        props.onClickEvent(text);
+        props.onClickAdd(text);
         setText("");
     };
 
