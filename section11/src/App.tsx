@@ -4,6 +4,7 @@ import Editor from "./components/Editor";
 import { Todo } from "./types";
 import TodoItem from "./components/TodoItem";
 import React from "react";
+import _ from 'lodash';
 
 type Action =
     | {
